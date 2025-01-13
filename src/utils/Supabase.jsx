@@ -12,7 +12,11 @@ export const fetchTransactions = async () => {
 };
 
 export const fetchTransactionById = async (id) => {
-	const { data, error } = await supabase.from("data").eq("id", id).single();
+	const { data, error } = await supabase
+		.from("data")
+		.select("*")
+		.eq("id", id)
+		.single();
 	if (error) throw error;
 	return data;
 };
