@@ -1,4 +1,6 @@
-# React + Vite
+# Tampilan UI
+
+![alt text](http://url/to/img.png](https://i.postimg.cc/RZJ5h1hw/Screenshot-2025-01-13-at-23-50-55.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
